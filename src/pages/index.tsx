@@ -10,10 +10,10 @@ export default function Home() {
     <main
     className={styles.main}
     >
-      <header>
+      <header >
       <div className={styles.navbar}>
          <div className={styles.logo_menu}>
-         <Image className={styles.logo} src="/images/Logo.png" height={70} width={98} />
+         <Image className={styles.logo} alt='' src="/images/Logo.png" height={70} width={98} />
          
          </div>
          <div className={styles.work}>
@@ -40,7 +40,7 @@ export default function Home() {
 
       </header>
       <div className={styles.content}>
-      <Image className={styles.hero} src="/images/rolling-stones.jpeg" height={500} width={1200}/>
+      <Image className={styles.hero} alt='' src="/images/rolling-stones.jpeg" height={500} width={1200}/>
       <div className={styles.spline_container}>
       <Spline scene="https://prod.spline.design/VhXTC3ek0tNRml9q/scene.splinecode" />
       </div>
