@@ -23,7 +23,7 @@ export default function Home() {
            </Link>
        </div>
        <div className={styles.home}>
-         <Link className={styles}  href="/projects">
+         <Link className={styles.link}  href="/projects">
        <button  className={styles.button}>Home</button>
        
            </Link>
